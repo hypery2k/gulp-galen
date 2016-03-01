@@ -1,6 +1,6 @@
 {
   "name": "gulp-galenframework",
-  "version": "2.1.3",
+  "version": "2.2.0-dev",
   "description": "Gulp plugin for Galen Framework",
   "main": "index.js",
   "repository": {
