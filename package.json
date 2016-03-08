@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "event-stream": "3.3.2",
-    "gulp": "3.9.0",
+    "gulp": "3.9.1",
     "rimraf": "2.4.3"
   },
   "scripts": {
