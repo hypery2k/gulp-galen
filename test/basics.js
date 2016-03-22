@@ -2,6 +2,7 @@
 
 var assert = require("assert");
 var gulp = require("gulp");
+var path = require("path");
 var es = require("event-stream");
 var util = require("util");
 var fs = require("fs");
@@ -18,7 +19,7 @@ describe("gulp-galen", function () {
         var options = {
             url: "https://www.google.com",
             size: "800x600",
-            galenPath: "./node_modules/galenframework/bin/galen"
+            galenPath: path.resolve('node_modules', 'galenframework', 'bin', 'galen')
         };
 
         it("should iterate over some gspecs", function (done) {
