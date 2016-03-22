@@ -19,7 +19,7 @@ describe("gulp-galen", function () {
         var options = {
             url: "https://www.google.com",
             size: "800x600",
-            galenPath: path.resolve('node_modules', 'galenframework', 'bin', 'galen')
+            galenPath: path.resolve('node_modules', 'galenframework', 'bin', 'galen' + (process.platform === 'win32' ? '.cmd' : ''))
         };
 
         it("should iterate over some gspecs", function (done) {
