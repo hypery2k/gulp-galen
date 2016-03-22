@@ -44,6 +44,6 @@
     "rimraf": "2.4.3"
   },
   "scripts": {
-    "test": "jshint *.js lib/*.js test/*.js && mocha"
+    "test": "jshint  --filename *.js && jshint  --filename lib/*.js && jshint  --filename test/*.js && mocha"
   }
 }
