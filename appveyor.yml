@@ -18,16 +18,17 @@ platform:
   - x64
 
 install:
-  - ps: Install-Product node $env:nodejs_version and NPM $env:npm_version
+  - ps: Install-Product node $env:NODE_VERSION
   - node --version
   - npm --version
-  - npm install -g npm@$env:npm_version
+  - npm install -g npm@%NPM_VERSION%
   - npm install -g gulp
   - npm install -g jshint
   - npm install -g mocha
   - npm install -g istanbul
   - npm install -g istanbul-coveralls
   - npm install -g nodeunit
+  - npm install
 
 build: off
 

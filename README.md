@@ -4,7 +4,7 @@
 
 > Gulp plugin for [Galen](http://galenframework.com/) testing framework
 
-[![Build Status](https://travis-ci.org/hypery2k/gulp-galenframework.svg)](https://travis-ci.org/hypery2k/gulp-galenframework) [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE) [![npm version](https://badge.fury.io/js/gulp-galenframework.svg)](http://badge.fury.io/js/grunt-galenframework)
+[![Build Status](https://travis-ci.org/hypery2k/gulp-galenframework.svg)](https://travis-ci.org/hypery2k/gulp-galenframework) [![Build status](https://ci.appveyor.com/api/projects/status/riina6d8ov0s2cn4?svg=true)](https://ci.appveyor.com/project/hypery2k/gulp-galenframework) [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE) [![npm version](https://badge.fury.io/js/gulp-galenframework.svg)](http://badge.fury.io/js/grunt-galenframework)
 
 [![NPM](https://nodei.co/npm/gulp-galenframework.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gulp-galenframework/)
 
@@ -52,8 +52,9 @@ gulpGalen.check({galenPath: './node_modules/.bin/galen'})
 var gulpGalen = require('gulp-galenframework');
 ```
 
-This provides two gulp stream constructors:
+This provides three gulp stream constructors:
 
+* `gulpGalen.dump(options, processOptions)`: creates a page dump.
 * `gulpGalen.check(options, processOptions)`: runs a speficied .gspec aganst a given url.
 * `gulpGalen.test(options, processOptions)`: runs a test against a given testsuite (JavaScript based or Galen test suite style)
 
@@ -71,6 +72,14 @@ This might especially be useful when generating repots. Example:
 ```JavaScript
 gulpGalen.check((htmlreport: "reports/{relative}"))
 ```
+
+### `dump` options
+
+* `url`: a URL of page for Galen to test on
+* `size`: a browser window size, e.g. "1024x768"
+* `export`:  a path to page dump folder
+* `max-width`: a maximum width of an element for which it should create an image sample
+* `max-height`: a maximum height of an element for which it should create an image sample
 
 ### `check` options
 
