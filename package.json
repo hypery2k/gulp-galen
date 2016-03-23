@@ -32,7 +32,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "galenframework": "2.2.3",
+    "galenframework": "2.3.0-beta.0",
     "gulp-util": "3.0.7",
     "lodash": "4.5.1",
     "resolve": "1.1.7",
@@ -44,6 +44,7 @@
     "rimraf": "2.4.3"
   },
   "scripts": {
-    "test": "jshint  --filename *.js && jshint  --filename lib/*.js && jshint  --filename test/*.js && mocha"
+    "pretest": "jshint -c ../.jshintrc --filename *.js && jshint -c ../.jshintrc --filename lib/*.js && jshint -c ../.jshintrc --filename test/*.js",
+    "test": "mocha"
   }
 }
