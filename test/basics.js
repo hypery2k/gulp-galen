@@ -14,7 +14,7 @@ describe("gulp-galen", function () {
 
     describe("basic functionality", function () {
 
-        this.timeout(30000);
+        this.timeout(100000);
 
         var options = {
             url: "https://www.google.com",
