@@ -14,7 +14,7 @@ describe("gulp-galen", function () {
 
     describe("basic functionality", function () {
 
-        this.timeout(100000);
+        this.timeout(300000);
 
         var options = {
             url: "https://www.google.com",
@@ -49,8 +49,6 @@ describe("gulp-galen", function () {
     });
 
     describe("extended functionality", function () {
-
-        this.timeout(30000);
 
         before(function (done) {
             rimraf("./tmp/test-reports", done);
