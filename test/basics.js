@@ -28,8 +28,8 @@ describe("gulp-galen", function () {
                     assert(!err, "There where errors present");
                     assert(arr, "Result missing");
                     for (var i = 0; i < 2; i++) {
-                        assert(arr[i].path.match(/specs\/google_success.\.gspec$/),
-                            "File's path didn't end with specs/google_success?.gspec: '" + arr[i].path + "'");
+                        assert(arr[i].path.match(/google_success.\.gspec$/),
+                            "File's path didn't end with google_success?.gspec: '" + arr[i].path + "'");
                     }
                     done();
                 }));
