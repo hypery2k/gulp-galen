@@ -19,7 +19,7 @@ This module downloads the GalenFramework for you
 ## Installation
 
 ```Shell
-npm install gulp-galenframework
+npm install --save-dev gulp-galenframework
 ```
 
 If this doesn't want to use the provided galen version use the `galenPath` option to specify the
