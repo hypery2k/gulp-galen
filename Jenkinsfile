@@ -25,7 +25,7 @@ node('mac') {
 
         stage('Test') {
             sh "npm run test"
-            junit '*/target/tests.js.xml'
+            junit 'target/tests.js.xml'
         }
 
         stage('Publish NPM snapshot') {
