@@ -33,6 +33,13 @@ This module downloads the GalenFramework for you
 npm install --save-dev gulp-galenframework
 ```
 
+
+Or the develop build, which maybe **not be stable**
+
+```Shell
+ npm install --save-dev gulp-galenframework@next
+```
+
 If this doesn't want to use the provided galen version use the `galenPath` option to specify the
 correct path:
 
