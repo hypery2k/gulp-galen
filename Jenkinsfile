@@ -26,7 +26,7 @@ node {
 
         stage('Test') {
             wrap([$class: 'Xvfb']) {
-                sh "npm run test"
+                sh "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY npm run test"
                 junit '*/target/tests.js.xml'
             }
         }
