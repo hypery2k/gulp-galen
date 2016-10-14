@@ -41,6 +41,7 @@
   "devDependencies": {
     "event-stream": "3.3.2",
     "gulp": "3.9.1",
+    "jshint": "2.9.3",
     "rimraf": "2.4.3"
   },
   "scripts": {
