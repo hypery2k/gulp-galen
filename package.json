@@ -34,17 +34,17 @@
   "dependencies": {
     "galenframework": "2.3.1",
     "gulp-util": "3.0.7",
-    "lodash": "4.5.1",
+    "lodash": "4.16.6",
     "resolve": "1.1.7",
-    "through2": "2.0.0"
+    "through2": "2.0.1"
   },
   "devDependencies": {
-    "event-stream": "3.3.2",
+    "event-stream": "3.3.4",
     "gulp": "3.9.1",
-    "jshint": "2.9.3",
+    "jshint": "2.9.4",
     "mocha": "3.1.2",
-    "mocha-junit-reporter": "1.12.0",
-    "rimraf": "2.4.3"
+    "mocha-junit-reporter": "1.12.1",
+    "rimraf": "2.5.4"
   },
   "scripts": {
     "pretest": "jshint -c .jshintrc --filename *.js && jshint -c .jshintrc --filename lib/*.js && jshint -c .jshintrc --filename test/*.js",
