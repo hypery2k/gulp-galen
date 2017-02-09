@@ -177,3 +177,29 @@ gulp.task("test:galen", function(done) {
     }, done));
 });
 ```
+
+### Test locally created files
+
+```JavaScript
+var gulp = require('gulp'),
+  connect = require('connect'),
+  http = require('http'),
+  serveStatic = require('serve-static'),
+  gulpGalen = require('gulp-galenframework');
+...
+gulp.task('layout-tests', function (cb) {
+  var app = connect().use(serveStatic('dist')),
+    server = http.createServer(app).listen(8888, function () {
+      gulp.src('test/layout/local.test').pipe(
+        gulpGalen.test({
+          cwd: 'test/layout',
+          htmlreport: '../../target/galen-report',
+          junitreport: '../../target/reports/TESTS-Galen.xml'
+        })).on('end', function () {
+        server.close(function () {
+          cb();
+        });
+      });
+    });
+});
+```
