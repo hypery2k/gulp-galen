@@ -1,3 +1,22 @@
+<a name="2.3.2"></a>
+## [2.3.2](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.1...v2.3.2) (2017-02-09)
+
+
+### Bug Fixes
+
+* **package:** update galenframework to version 2.3.2 ([a862e47](https://github.com/hypery2k/gulp-galenframework/commit/a862e47))
+* **package:** update lodash to version 4.17.0 ([2eff813](https://github.com/hypery2k/gulp-galenframework/commit/2eff813))
+* **stream-handling:** Improve stream handling ([348fd73](https://github.com/hypery2k/gulp-galenframework/commit/348fd73))
+
+
+### Features
+
+* **galen:** Use newer galen ([94a4e5e](https://github.com/hypery2k/gulp-galenframework/commit/94a4e5e))
+* **webdriver:** Support for gecko- und chromedriver ([ae8b54e](https://github.com/hypery2k/gulp-galenframework/commit/ae8b54e))
+* **webdriver:** Support for gecko- und chromedriver ([0238351](https://github.com/hypery2k/gulp-galenframework/commit/0238351))
+
+
+
 <a name="2.3.1"></a>
 ## [2.3.1](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.0...v2.3.1) (2016-10-14)
 
