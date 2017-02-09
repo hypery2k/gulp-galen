@@ -2,11 +2,6 @@
   "name": "gulp-galenframework",
   "version": "2.3.2",
   "description": "Gulp plugin for Galen Framework",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hypery2k/gulp-galenframework"
-  },
   "keywords": [
     "grunt",
     "galen",
@@ -19,18 +14,11 @@
     "TDD",
     "BDD"
   ],
-  "engines": {
-    "node": ">=0.10.0"
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint -c .jshintrc --filename *.js && jshint -c .jshintrc --filename lib/*.js && jshint -c .jshintrc --filename test/*.js",
+    "test": "mocha test --reporter mocha-junit-reporter --reporter-options mochaFile=./target/tests.js.xml"
   },
-  "author": {
-    "name": "Martin Reinhardt"
-  },
-  "contributors": [
-    {
-      "name": "GALERIA Kaufhof GmbH"
-    }
-  ],
-  "license": "MIT",
   "dependencies": {
     "chromedriver": "^2.27.2",
     "galenframework": "2.3.2",
@@ -46,8 +34,21 @@
     "mocha-junit-reporter": "1.12.0",
     "rimraf": "2.4.3"
   },
-  "scripts": {
-    "pretest": "jshint -c .jshintrc --filename *.js && jshint -c .jshintrc --filename lib/*.js && jshint -c .jshintrc --filename test/*.js",
-    "test": "mocha test --reporter mocha-junit-reporter --reporter-options mochaFile=./target/tests.js.xml"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hypery2k/gulp-galenframework"
+  },
+  "author": {
+    "name": "Martin Reinhardt"
+  },
+  "contributors": [
+    {
+      "name": "GALERIA Kaufhof GmbH"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.4",
+    "npm": ">= 3"
   }
 }
