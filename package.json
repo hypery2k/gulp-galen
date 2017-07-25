@@ -28,7 +28,7 @@
     "publish-and-merge": "git checkout master && git merge develop && git push && git checkout develop && npm publish"
   },
   "dependencies": {
-    "chromedriver": "2.30.1",
+    "chromedriver": "2.31.0",
     "galenframework": "2.3.4",
     "geckodriver": "1.8.0",
     "gulp-util": "^3.0",
