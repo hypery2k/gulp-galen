@@ -1,3 +1,17 @@
+<a name="2.3.5"></a>
+## [2.3.5](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.4...v2.3.5) (2017-09-07)
+
+
+### Bug Fixes
+
+* **package:** update chromedriver to version 2.31.0 ([efd9648](https://github.com/hypery2k/gulp-galenframework/commit/efd9648))
+* **package:** update chromedriver to version 2.32.0 ([aadc129](https://github.com/hypery2k/gulp-galenframework/commit/aadc129))
+* **package:** update chromedriver to version 2.32.1 ([d5b7cee](https://github.com/hypery2k/gulp-galenframework/commit/d5b7cee))
+* **package:** update galenframework to version 2.3.5 ([2b84a45](https://github.com/hypery2k/gulp-galenframework/commit/2b84a45))
+* **package:** update geckodriver to version 1.8.1 ([7d7b4dc](https://github.com/hypery2k/gulp-galenframework/commit/7d7b4dc))
+
+
+
 <a name="2.3.4"></a>
 ## [2.3.4](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.3...v2.3.4) (2017-07-21)
 
