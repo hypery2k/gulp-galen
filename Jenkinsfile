@@ -3,41 +3,42 @@ properties properties: [
         [$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/hypery2k/gulp-galenframework'],
 ]
 
+@Library('mare-build-library')
+def nodeJS = new de.mare.ci.jenkins.NodeJS()
+
 node('mac') {
-    def buildNumber = env.BUILD_NUMBER
-    def branchName = env.BRANCH_NAME
-    def workspace = env.WORKSPACE
-    def buildUrl = env.BUILD_URL
+  def buildNumber = env.BUILD_NUMBER
+  def branchName = env.BRANCH_NAME
+  def workspace = env.WORKSPACE
+  def buildUrl = env.BUILD_URL
 
-    // PRINT ENVIRONMENT TO JOB
-    echo "workspace directory is $workspace"
-    echo "build URL is $buildUrl"
-    echo "build Number is $buildNumber"
-    echo "branch name is $branchName"
-    echo "PATH is $env.PATH"
+  // PRINT ENVIRONMENT TO JOB
+  echo "workspace directory is $workspace"
+  echo "build URL is $buildUrl"
+  echo "build Number is $buildNumber"
+  echo "branch name is $branchName"
+  echo "PATH is $env.PATH"
 
-    try {
-        stage('Checkout') {
-            checkout scm
-        }
-
-        stage('Build') {
-            sh "npm install"
-        }
-
-        stage('Test') {
-            sh "npm run test"
-            junit 'target/tests.js.xml'
-        }
-
-        stage('Publish NPM snapshot') {
-            def currentVersionCore = sh(returnStdout: true, script: "npm version | grep \"{\" | tr -s ':'  | cut -d \"'\" -f 4").trim()
-            def newVersionCore = "${currentVersionCore}-${branchName}-${buildNumber}"
-            sh "npm version ${newVersionCore} --no-git-tag-version && npm publish --tag next"
-        }
-
-    } catch (e) {
-        mail subject: "${env.JOB_NAME} (${env.BUILD_NUMBER}): Error on build", to: 'github@martinreinhardt-online.de', body: "Please go to ${env.BUILD_URL}."
-        throw e
+  try {
+    stage('Checkout') {
+      checkout scm
     }
+
+    stage('Build') {
+      nodeJS.nvm('install')
+    }
+
+    stage('Test') {
+      nodeJS.nvmRun('test')
+      junit '*/target/tests.js.xml'
+    }
+
+    stage('Publish NPM snapshot') {
+      nodeJS.publishSnapshot('.', buildNumber, branchName)
+    }
+
+  } catch (e) {
+    mail subject: "${env.JOB_NAME} (${env.BUILD_NUMBER}): Error on build", to: 'github@martinreinhardt-online.de', body: "Please go to ${env.BUILD_URL}."
+    throw e
+  }
 }
