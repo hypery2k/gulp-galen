@@ -1,3 +1,15 @@
+<a name="2.3.6"></a>
+## [2.3.6](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.5...v2.3.6) (2017-12-16)
+
+
+### Bug Fixes
+
+* **package:** update chromedriver to version 2.32.2 ([03340b5](https://github.com/hypery2k/gulp-galenframework/commit/03340b5))
+* **package:** update galenframework to version 2.3.6 ([3c6e70d](https://github.com/hypery2k/gulp-galenframework/commit/3c6e70d))
+* **package:** update geckodriver to version 1.9.0 ([b176caa](https://github.com/hypery2k/gulp-galenframework/commit/b176caa))
+
+
+
 <a name="2.3.5"></a>
 ## [2.3.5](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.4...v2.3.5) (2017-09-07)
 
@@ -41,8 +53,8 @@
 
 * **package:** update galenframework to version 2.3.2 ([a862e47](https://github.com/hypery2k/gulp-galenframework/commit/a862e47))
 * **package:** update lodash to version 4.17.0 ([2eff813](https://github.com/hypery2k/gulp-galenframework/commit/2eff813))
-* **stream-handling:** Improve stream handling ([348fd73](https://github.com/hypery2k/gulp-galenframework/commit/348fd73))
-* **stream-handling:** Improve stream handling ([c46cc01](https://github.com/hypery2k/gulp-galenframework/commit/c46cc01))
+* **stream-handling:** Improve stream handling ([348fd73](https://github.com/hypery2k/gulp-galenframework/commit/348fd73)), closes [#10](https://github.com/hypery2k/gulp-galenframework/issues/10)
+* **stream-handling:** Improve stream handling ([c46cc01](https://github.com/hypery2k/gulp-galenframework/commit/c46cc01)), closes [#10](https://github.com/hypery2k/gulp-galenframework/issues/10)
 
 
 ### Features
