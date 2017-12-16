@@ -30,7 +30,7 @@ node('mac') {
 
     stage('Test') {
       nodeJS.nvmRun('test')
-      junit '*/target/tests.js.xml'
+      junit 'target/tests.js.xml'
     }
 
     stage('Publish NPM snapshot') {
