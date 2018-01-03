@@ -6,10 +6,6 @@
 
 [![Build Status](https://travis-ci.org/hypery2k/gulp-galenframework.svg)](https://travis-ci.org/hypery2k/gulp-galenframework) [![Build status](https://ci.appveyor.com/api/projects/status/riina6d8ov0s2cn4?svg=true)](https://ci.appveyor.com/project/hypery2k/gulp-galenframework) [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE) [![npm version](https://badge.fury.io/js/gulp-galenframework.svg)](http://badge.fury.io/js/grunt-galenframework)
 
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE) [![npm version](https://badge.fury.io/js/gulp-galenframework.svg)](http://badge.fury.io/js/gulp-galenframework)
-
-[![NPM](https://nodei.co/npm/gulp-galenframework.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gulp-galenframework/)
-
 <a name="donation"></a>
 > Feel free to **donate**
 >
