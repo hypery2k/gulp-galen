@@ -4,7 +4,8 @@
 
 > Gulp plugin for [Galen](http://galenframework.com/) testing framework
 
-[![Build Status](https://travis-ci.org/hypery2k/gulp-galenframework.svg)](https://travis-ci.org/hypery2k/gulp-galenframework) [![Build status](https://ci.appveyor.com/api/projects/status/riina6d8ov0s2cn4?svg=true)](https://ci.appveyor.com/project/hypery2k/gulp-galenframework) [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE) [![npm version](https://badge.fury.io/js/gulp-galenframework.svg)](http://badge.fury.io/js/grunt-galenframework)
+[![Build Status](https://travis-ci.org/hypery2k/gulp-galenframework.svg)](https://travis-ci.org/hypery2k/gulp-galenframework) [![Build status](https://ci.appveyor.com/api/projects/status/riina6d8ov0s2cn4?svg=true)](https://ci.appveyor.com/project/hypery2k/gulp-galenframework) [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE) [![npm version](https://badge.fury.io/js/gulp-galenframework.svg)](http://badge.fury.io/js/gulp-galenframework)
+[![Known Vulnerabilities](https://snyk.io/test/github/hypery2k/gulp-galenframework/badge.svg)](https://snyk.io/test/github/hypery2k/gulp-galenframework)
 
 <a name="donation"></a>
 > Feel free to **donate**
