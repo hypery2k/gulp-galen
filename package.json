@@ -1,67 +1,67 @@
 {
-  "name": "gulp-galenframework",
-  "version": "2.3.6",
-  "description": "Gulp plugin for Galen Framework",
-  "keywords": [
-    "grunt",
-    "galen",
-    "galenframework",
-    "responsive",
-    "test",
-    "testing",
-    "webdriver",
-    "selenium",
-    "TDD",
-    "BDD"
-  ],
-  "main": "index.js",
-  "scripts": {
-    "pretest": "jshint -c .jshintrc --filename *.js && jshint -c .jshintrc --filename lib/*.js && jshint -c .jshintrc --filename test/*.js",
-    "test": "mocha test --reporter mocha-junit-reporter --reporter-options mochaFile=./target/tests.js.xml",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "changelog:add": "git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md'",
-    "release": "npm run test && npm run changelog && npm run changelog:add",
-    "release:major": "npm version major && npm run release && npm run version-and-push",
-    "release:minor": "npm version minor && npm run release && npm run version-and-push",
-    "release:patch": "npm version patch && npm run release && npm run version-and-push",
-    "version-and-push": "git push origin && git push origin --tags && npm run publish-and-merge",
-    "publish-and-merge": "git checkout master && git merge develop && git push && git checkout develop && npm publish",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
-  },
-  "dependencies": {
-    "chromedriver": "^2.33.2",
-    "galenframework": "2.3.7",
-    "geckodriver": "^1.10.0",
-    "gulp-util": "^3.0",
-    "through2": "^2.0.0",
-    "snyk": "^1.69.7"
-  },
-  "devDependencies": {
-    "conventional-changelog-cli": "1.3.22",
-    "event-stream": "3.3.4",
-    "gulp": "3.9.1",
-    "jshint": "2.9.5",
-    "mocha": "5.0.5",
-    "mocha-junit-reporter": "1.15.0",
-    "rimraf": "2.6.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hypery2k/gulp-galenframework"
-  },
-  "author": {
-    "name": "Martin Reinhardt"
-  },
-  "contributors": [
-    {
-      "name": "GALERIA Kaufhof GmbH"
-    }
-  ],
-  "license": "MIT",
-  "engines": {
-    "node": ">= 4.4",
-    "npm": ">= 3"
-  },
-  "snyk": true
+    "name": "gulp-galenframework",
+    "version": "2.3.6",
+    "description": "Gulp plugin for Galen Framework",
+    "keywords": [
+        "grunt",
+        "galen",
+        "galenframework",
+        "responsive",
+        "test",
+        "testing",
+        "webdriver",
+        "selenium",
+        "TDD",
+        "BDD"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "pretest": "jshint -c .jshintrc --filename *.js && jshint -c .jshintrc --filename lib/*.js && jshint -c .jshintrc --filename test/*.js",
+        "test": "mocha test --reporter mocha-junit-reporter --reporter-options mochaFile=./target/tests.js.xml",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+        "changelog:add": "git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md'",
+        "release": "npm run test && npm run changelog && npm run changelog:add",
+        "release:major": "npm version major && npm run release && npm run version-and-push",
+        "release:minor": "npm version minor && npm run release && npm run version-and-push",
+        "release:patch": "npm version patch && npm run release && npm run version-and-push",
+        "version-and-push": "git push origin && git push origin --tags && npm run publish-and-merge",
+        "publish-and-merge": "git checkout master && git merge develop && git push && git checkout develop && npm publish",
+        "snyk-protect": "snyk protect",
+        "prepublish": "npm run snyk-protect"
+    },
+    "dependencies": {
+        "chromedriver": "^2.38.3",
+        "galenframework": "^2.3.7",
+        "geckodriver": "^1.11.0",
+        "gulp-util": "^3.0",
+        "snyk": "^1.69.7",
+        "through2": "^2.0.0"
+    },
+    "devDependencies": {
+        "conventional-changelog-cli": "1.3.22",
+        "event-stream": "3.3.4",
+        "gulp": "3.9.1",
+        "jshint": "2.9.5",
+        "mocha": "5.0.5",
+        "mocha-junit-reporter": "1.15.0",
+        "rimraf": "2.6.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hypery2k/gulp-galenframework"
+    },
+    "author": {
+        "name": "Martin Reinhardt"
+    },
+    "contributors": [
+        {
+            "name": "GALERIA Kaufhof GmbH"
+        }
+    ],
+    "license": "MIT",
+    "engines": {
+        "node": ">= 4.4",
+        "npm": ">= 3"
+    },
+    "snyk": true
 }
