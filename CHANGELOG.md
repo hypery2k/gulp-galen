@@ -1,3 +1,20 @@
+<a name="2.3.7"></a>
+## [2.3.7](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.6...v2.3.7) (2018-05-27)
+
+
+### Bug Fixes
+
+* package.json & .snyk to reduce vulnerabilities ([9344488](https://github.com/hypery2k/gulp-galenframework/commit/9344488))
+* **package:** update galenframework to version 2.3.7 ([04d851c](https://github.com/hypery2k/gulp-galenframework/commit/04d851c))
+* package.json to reduce vulnerabilities ([5e7b32c](https://github.com/hypery2k/gulp-galenframework/commit/5e7b32c))
+
+
+### Features
+
+* **Galen:** Use newer Galen Version 2.3.7 ([8b5b94e](https://github.com/hypery2k/gulp-galenframework/commit/8b5b94e))
+
+
+
 <a name="2.3.6"></a>
 ## [2.3.6](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.5...v2.3.6) (2017-12-16)
 
