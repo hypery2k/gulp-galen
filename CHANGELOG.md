@@ -1,3 +1,13 @@
+<a name="2.4.0"></a>
+# [2.4.0](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.7...v2.4.0) (2018-11-04)
+
+
+### Features
+
+* **Galen:** Use newer Galen Version 2.4.0 ([c65bf2d](https://github.com/hypery2k/gulp-galenframework/commit/c65bf2d))
+
+
+
 <a name="2.3.7"></a>
 ## [2.3.7](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.6...v2.3.7) (2018-05-27)
 
