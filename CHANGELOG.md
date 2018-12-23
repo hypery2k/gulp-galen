@@ -1,3 +1,18 @@
+<a name="2.4.1"></a>
+## [2.4.1](https://github.com/hypery2k/gulp-galenframework/compare/v2.4.0...v2.4.1) (2018-12-23)
+
+
+### Bug Fixes
+
+* package.json to reduce vulnerabilities ([5e78a76](https://github.com/hypery2k/gulp-galenframework/commit/5e78a76))
+
+
+### Features
+
+* **Galen:** Use latest Galen version ([ccf5a25](https://github.com/hypery2k/gulp-galenframework/commit/ccf5a25))
+
+
+
 <a name="2.4.0"></a>
 # [2.4.0](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.7...v2.4.0) (2018-11-04)
 
