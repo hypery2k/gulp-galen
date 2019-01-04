@@ -30,9 +30,9 @@
         "prepublish": "npm run snyk-protect"
     },
     "dependencies": {
-        "chromedriver": "^2.38.3",
+        "chromedriver": "^2.45.0",
         "galenframework": "^2.4.1",
-        "geckodriver": "^1.12.2",
+        "geckodriver": "^1.14.1",
         "gulp-util": "^3.0",
         "snyk": "^1.82.0",
         "through2": "^2.0.0"
