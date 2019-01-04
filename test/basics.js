@@ -18,7 +18,7 @@ describe("gulp-galen", function () {
 
         var options = {
             url: "https://www.google.com",
-            size: "800x600",
+            size: "1280x1024",
             properties: {
                 "galen.default.browser": "chrome"
             },
