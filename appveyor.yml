@@ -23,7 +23,8 @@ cache:
 
 install:
   - cmd: nuget sources add -Name api.nuget.org -Source https://api.nuget.org/v3/index.json
-  - choco install firefox -version 43.0.3
+  - choco install firefox
+  - choco install googlechrome
   - ps: Install-Product node $env:NODE_VERSION
   - node --version
   - npm --version
