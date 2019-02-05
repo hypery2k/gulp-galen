@@ -6,23 +6,20 @@
 
 > Gulp plugin for [Galen](http://galenframework.com/) testing framework
 
-[![Build Status](https://travis-ci.org/hypery2k/gulp-galenframework.svg)](https://travis-ci.org/hypery2k/gulp-galenframework) [![Build status](https://ci.appveyor.com/api/projects/status/riina6d8ov0s2cn4?svg=true)](https://ci.appveyor.com/project/hypery2k/gulp-galenframework) [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE) [![npm version](https://badge.fury.io/js/gulp-galenframework.svg)](http://badge.fury.io/js/gulp-galenframework)
+[![Build Status](https://travis-ci.org/hypery2k/gulp-galenframework.svg)](https://travis-ci.org/hypery2k/gulp-galenframework)
+[![Build status](https://ci.appveyor.com/api/projects/status/riina6d8ov0s2cn4?svg=true)](https://ci.appveyor.com/project/hypery2k/gulp-galenframework)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![npm version](https://badge.fury.io/js/gulp-galenframework.svg)](http://badge.fury.io/js/gulp-galenframework)
+[![npm downloads](https://img.shields.io/npm/dm/gulp-galenframework.svg)](https://www.npmjs.com/package/gulp-galenframework)
+[![npm downloads](https://img.shields.io/npm/dt/gulp-galenframework.svg)](https://www.npmjs.com/package/gulp-galenframework)
 [![Known Vulnerabilities](https://snyk.io/test/github/hypery2k/gulp-galenframework/badge.svg)](https://snyk.io/test/github/hypery2k/gulp-galenframework)
 
-<a name="donation"></a>
-> Feel free to **donate**
->
-> <a href='http://www.pledgie.com/campaigns/33053'><img alt='Click here to lend your support and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/33053.png?skin_name=chrome' border='0' /></a>
-> <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AGPGLZYNV6Y5S">
-> <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif"/>
-> </img></a>
-> Or donate Bitcoins: bitcoin:3NKtxw1SRYgess5ev4Ri54GekoAgkR213D
->
-> [![Bitcoin](https://martinreinhardt-online.de/bitcoin.png)](bitcoin:3NKtxw1SRYgess5ev4Ri54GekoAgkR213D)
->
-> Also via [greenaddress](https://greenaddress.it/pay/GA3ZPfh7As3Gc2oP6pQ1njxMij88u/)
+## Donation
 
+Feel free to [donate via Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H8TR8246RCDJG) or [Bitcoins ](bitcoin:3NKtxw1SRYgess5ev4Ri54GekoAgkR213D): bitcoin:3NKtxw1SRYgess5ev4Ri54GekoAgkR213D
 
+[![Bitcoin](https://martinreinhardt-online.de/assets/img/bitcoin.png)](bitcoin:3NKtxw1SRYgess5ev4Ri54GekoAgkR213D)
+ Also via [greenaddress](https://greenaddress.it/pay/GA3ZPfh7As3Gc2oP6pQ1njxMij88u/)
 
 
 This module downloads the GalenFramework for you

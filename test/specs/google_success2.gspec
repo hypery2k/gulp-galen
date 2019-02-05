@@ -1,6 +1,6 @@
 @objects
     input              css      input[name=q]
-    submit             css      input[type=submit]
+    submit             xpath      //*[@id="tsf"]//div[not(@jsname)]/center/input[@type="submit"][1]
 
 = Main section =
     input:

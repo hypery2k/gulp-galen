@@ -1,6 +1,6 @@
 {
     "name": "gulp-galenframework",
-    "version": "2.4.1",
+    "version": "2.4.2",
     "description": "Gulp plugin for Galen Framework",
     "keywords": [
         "grunt",
@@ -30,11 +30,11 @@
         "prepublish": "npm run snyk-protect"
     },
     "dependencies": {
-        "chromedriver": "^2.38.3",
-        "galenframework": "^2.4.1",
-        "geckodriver": "^1.12.2",
+        "chromedriver": "^2.46.0",
+        "galenframework": "^2.4.2",
+        "geckodriver": "^1.14.1",
         "gulp-util": "^3.0",
-        "snyk": "^1.82.0",
+        "snyk": "^1.124.1",
         "through2": "^2.0.0"
     },
     "devDependencies": {

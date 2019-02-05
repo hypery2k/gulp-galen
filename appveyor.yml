@@ -2,20 +2,13 @@
 # http://www.appveyor.com/docs/appveyor-yml
 environment:
   matrix:
-    - NODE_VERSION: "4"
-      NPM_VERSION: "3"
-    - NODE_VERSION: "5"
-      NPM_VERSION: "3"
-    - NODE_VERSION: "6"
-      NPM_VERSION: "3"
-    - NODE_VERSION: "7"
-      NPM_VERSION: "3"
-    - NODE_VERSION: "7"
-      NPM_VERSION: "4"
-    - NODE_VERSION: "8"
-      NPM_VERSION: "4"
     - NODE_VERSION: "8"
       NPM_VERSION: "5"
+    - NODE_VERSION: "9"
+      NPM_VERSION: "5"
+    - NODE_VERSION: "10"
+      NPM_VERSION: "6"
+
 
 platform:
   - x86
@@ -30,7 +23,8 @@ cache:
 
 install:
   - cmd: nuget sources add -Name api.nuget.org -Source https://api.nuget.org/v3/index.json
-  - choco install firefox -version 43.0.3
+  - choco install firefox
+  - choco install googlechrome
   - ps: Install-Product node $env:NODE_VERSION
   - node --version
   - npm --version

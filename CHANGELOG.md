@@ -1,3 +1,21 @@
+<a name="2.4.2"></a>
+## [2.4.2](https://github.com/hypery2k/gulp-galenframework/compare/v2.4.1...v2.4.2) (2019-02-05)
+
+
+### Bug Fixes
+
+* **Tests:** Corrected end2end tests ([fd3662a](https://github.com/hypery2k/gulp-galenframework/commit/fd3662a))
+* **Windows:** Resolve Windows path error for webdrivers ([301283e](https://github.com/hypery2k/gulp-galenframework/commit/301283e))
+
+
+### Features
+
+* **Galen:** Use latest Galen version ([736abc1](https://github.com/hypery2k/gulp-galenframework/commit/736abc1))
+* **Webdriver:** Update chromedriver ([b92d918](https://github.com/hypery2k/gulp-galenframework/commit/b92d918))
+* **Webdriver:** Update geckodriver and chromedriver ([fceabcb](https://github.com/hypery2k/gulp-galenframework/commit/fceabcb))
+
+
+
 <a name="2.4.1"></a>
 ## [2.4.1](https://github.com/hypery2k/gulp-galenframework/compare/v2.4.0...v2.4.1) (2018-12-23)
 
