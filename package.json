@@ -38,7 +38,7 @@
         "through2": "^2.0.0"
     },
     "devDependencies": {
-        "conventional-changelog-cli": "2.0.0",
+        "conventional-changelog-cli": "2.0.12",
         "event-stream": "3.3.4",
         "gulp": "^4.0.0",
         "jshint": "^2.9.6",
