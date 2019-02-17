@@ -34,7 +34,7 @@
         "galenframework": "^2.4.2",
         "geckodriver": "^1.14.1",
         "gulp-util": "^3.0",
-        "snyk": "^1.127.0",
+        "snyk": "^1.132.2",
         "through2": "^2.0.0"
     },
     "devDependencies": {
