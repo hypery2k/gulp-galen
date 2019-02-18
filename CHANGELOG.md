@@ -1,22 +1,24 @@
-<a name="2.4.2"></a>
-## [2.4.2](https://github.com/hypery2k/gulp-galenframework/compare/v2.4.1...v2.4.2) (2019-02-05)
+## [2.4.3](https://github.com/hypery2k/gulp-galenframework/compare/v2.4.1...v2.4.3) (2019-02-18)
 
 
 ### Bug Fixes
 
 * **Tests:** Corrected end2end tests ([fd3662a](https://github.com/hypery2k/gulp-galenframework/commit/fd3662a))
 * **Windows:** Resolve Windows path error for webdrivers ([301283e](https://github.com/hypery2k/gulp-galenframework/commit/301283e))
+* package.json & package-lock.json to reduce vulnerabilities ([0880ee9](https://github.com/hypery2k/gulp-galenframework/commit/0880ee9))
 
 
 ### Features
 
-* **Galen:** Use latest Galen version ([736abc1](https://github.com/hypery2k/gulp-galenframework/commit/736abc1))
-* **Webdriver:** Update chromedriver ([b92d918](https://github.com/hypery2k/gulp-galenframework/commit/b92d918))
+* **Galen:** Use latest Galen version ([7b1cfed](https://github.com/hypery2k/gulp-galenframework/commit/7b1cfed))
+* **Galen:** Use latest Galen version ([c14ca5b](https://github.com/hypery2k/gulp-galenframework/commit/c14ca5b))
+* **Security:** Resolve security alerts ([2982908](https://github.com/hypery2k/gulp-galenframework/commit/2982908))
+* **Webdriver:** Update chromedriver ([e59effe](https://github.com/hypery2k/gulp-galenframework/commit/e59effe))
 * **Webdriver:** Update geckodriver and chromedriver ([fceabcb](https://github.com/hypery2k/gulp-galenframework/commit/fceabcb))
+* **Webdriver:** Use latest chromedriver and pin geckodriver ([40f45c1](https://github.com/hypery2k/gulp-galenframework/commit/40f45c1))
 
 
 
-<a name="2.4.1"></a>
 ## [2.4.1](https://github.com/hypery2k/gulp-galenframework/compare/v2.4.0...v2.4.1) (2018-12-23)
 
 
@@ -31,7 +33,6 @@
 
 
 
-<a name="2.4.0"></a>
 # [2.4.0](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.7...v2.4.0) (2018-11-04)
 
 
@@ -41,7 +42,6 @@
 
 
 
-<a name="2.3.7"></a>
 ## [2.3.7](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.6...v2.3.7) (2018-05-27)
 
 
@@ -58,7 +58,6 @@
 
 
 
-<a name="2.3.6"></a>
 ## [2.3.6](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.5...v2.3.6) (2017-12-16)
 
 
@@ -70,7 +69,6 @@
 
 
 
-<a name="2.3.5"></a>
 ## [2.3.5](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.4...v2.3.5) (2017-09-07)
 
 
@@ -84,7 +82,6 @@
 
 
 
-<a name="2.3.4"></a>
 ## [2.3.4](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.3...v2.3.4) (2017-07-21)
 
 
@@ -94,7 +91,6 @@
 
 
 
-<a name="2.3.3"></a>
 ## [2.3.3](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.2...v2.3.3) (2017-04-03)
 
 
@@ -105,7 +101,6 @@
 
 
 
-<a name="2.3.2"></a>
 ## [2.3.2](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.1...v2.3.2) (2017-02-09)
 
 
@@ -128,87 +123,70 @@
 
 
 
-<a name="2.3.1"></a>
 ## [2.3.1](https://github.com/hypery2k/gulp-galenframework/compare/v2.3.0...v2.3.1) (2016-10-14)
 
 
 
-<a name="2.2.0"></a>
 # [2.2.0](https://github.com/hypery2k/gulp-galenframework/compare/v2.1.1...v2.2.0) (2016-03-01)
 
 
 
-<a name="2.1.1"></a>
 ## [2.1.1](https://github.com/hypery2k/gulp-galenframework/compare/v2.1.0...v2.1.1) (2015-12-17)
 
 
 
-<a name="2.1.0"></a>
 # [2.1.0](https://github.com/hypery2k/gulp-galenframework/compare/v2.0.2...v2.1.0) (2015-12-16)
 
 
 
-<a name="2.0.2"></a>
 ## [2.0.2](https://github.com/hypery2k/gulp-galenframework/compare/v2.0.1...v2.0.2) (2015-12-16)
 
 
 
-<a name="2.0.1"></a>
 ## [2.0.1](https://github.com/hypery2k/gulp-galenframework/compare/v2.0.0...v2.0.1) (2015-12-16)
 
 
 
-<a name="2.0.0"></a>
 # [2.0.0](https://github.com/hypery2k/gulp-galenframework/compare/v1.9.0...v2.0.0) (2015-12-16)
 
 
 
-<a name="1.9.0"></a>
 # [1.9.0](https://github.com/hypery2k/gulp-galenframework/compare/v1.0.9...v1.9.0) (2015-12-15)
 
 
 
-<a name="1.0.9"></a>
 ## [1.0.9](https://github.com/hypery2k/gulp-galenframework/compare/v1.0.8...v1.0.9) (2015-12-08)
 
 
 
-<a name="1.0.8"></a>
 ## [1.0.8](https://github.com/hypery2k/gulp-galenframework/compare/v1.0.7...v1.0.8) (2015-11-23)
 
 
 
-<a name="1.0.7"></a>
 ## [1.0.7](https://github.com/hypery2k/gulp-galenframework/compare/v1.0.6...v1.0.7) (2015-11-23)
 
 
 
-<a name="1.0.6"></a>
 ## [1.0.6](https://github.com/hypery2k/gulp-galenframework/compare/v1.0.5...v1.0.6) (2015-11-12)
 
 
 
-<a name="1.0.5"></a>
 ## [1.0.5](https://github.com/hypery2k/gulp-galenframework/compare/v1.0.4...v1.0.5) (2015-11-12)
 
 
 
-<a name="1.0.4"></a>
 ## [1.0.4](https://github.com/hypery2k/gulp-galenframework/compare/v1.0.3...v1.0.4) (2015-11-11)
 
 
 
-<a name="1.0.3"></a>
 ## [1.0.3](https://github.com/hypery2k/gulp-galenframework/compare/v1.0.2...v1.0.3) (2015-11-11)
 
 
 
-<a name="1.0.2"></a>
 ## [1.0.2](https://github.com/hypery2k/gulp-galenframework/compare/v1.0.0...v1.0.2) (2015-11-11)
 
 
 
-<a name="1.0.0"></a>
 # 1.0.0 (2015-11-10)
 
 
