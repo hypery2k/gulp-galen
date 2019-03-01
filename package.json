@@ -35,7 +35,7 @@
         "geckodriver": "1.15.1",
         "gulp-util": "^3.0",
         "snyk": "^1.132.2",
-        "through2": "^2.0.0"
+        "through2": "^3.0.1"
     },
     "devDependencies": {
         "conventional-changelog-cli": "2.0.12",
