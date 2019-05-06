@@ -32,7 +32,7 @@
     "dependencies": {
         "chromedriver": "^73.0.0",
         "galenframework": "^2.4.3",
-        "geckodriver": "1.15.1",
+        "geckodriver": "1.16.2",
         "gulp-util": "^3.0",
         "snyk": "^1.137.0",
         "through2": "^3.0.1"
