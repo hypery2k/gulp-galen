@@ -45,7 +45,7 @@
     "jshint": "^2.9.6",
     "mocha": "6.2.0",
     "mocha-junit-reporter": "1.15.0",
-    "rimraf": "2.6.2"
+    "rimraf": "2.6.3"
   },
   "repository": {
     "type": "git",
