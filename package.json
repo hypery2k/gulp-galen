@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "chromedriver": "^75.1.0",
-    "conventional-changelog-cli": "2.0.17",
+    "conventional-changelog-cli": "2.0.21",
     "event-stream": "3.3.4",
     "gulp": "^4.0.0",
     "jshint": "^2.9.6",
