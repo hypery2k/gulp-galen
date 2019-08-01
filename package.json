@@ -30,7 +30,7 @@
         "prepublish": "npm run snyk-protect"
     },
     "dependencies": {
-        "galenframework": "^2.4.3",
+        "galenframework": "2.4.4",
         "geckodriver": "1.16.2",
         "gulp-util": "^3.0",
         "snyk": "^1.164.0",
