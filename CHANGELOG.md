@@ -1,3 +1,20 @@
+## [2.4.4](https://github.com/hypery2k/gulp-galenframework/compare/v2.4.3...v2.4.4) (2019-08-01)
+
+
+### Bug Fixes
+
+* **package:** update geckodriver to version 1.15.1 ([6fd270f](https://github.com/hypery2k/gulp-galenframework/commit/6fd270f))
+* **package:** update through2 to version 3.0.1 ([21dd3b6](https://github.com/hypery2k/gulp-galenframework/commit/21dd3b6))
+* package.json & package-lock.json to reduce vulnerabilities ([#108](https://github.com/hypery2k/gulp-galenframework/issues/108)) ([764f186](https://github.com/hypery2k/gulp-galenframework/commit/764f186))
+* **Security:** Resolve security vulnerabilities ([a276684](https://github.com/hypery2k/gulp-galenframework/commit/a276684))
+
+
+### Features
+
+* **Galen:** Use newer Galen ([e15a806](https://github.com/hypery2k/gulp-galenframework/commit/e15a806))
+
+
+
 ## [2.4.3](https://github.com/hypery2k/gulp-galenframework/compare/v2.4.1...v2.4.3) (2019-02-18)
 
 
