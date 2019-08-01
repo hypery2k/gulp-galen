@@ -40,7 +40,7 @@
   "devDependencies": {
     "chromedriver": "^76.0.0",
     "conventional-changelog-cli": "2.0.17",
-    "event-stream": "3.3.4",
+    "event-stream": "4.0.1",
     "gulp": "^4.0.0",
     "jshint": "^2.9.6",
     "mocha": "6.2.0",
