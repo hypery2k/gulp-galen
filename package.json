@@ -42,7 +42,7 @@
         "event-stream": "3.3.4",
         "gulp": "^4.0.2",
         "jshint": "^2.9.6",
-        "mocha": "^6.2.0",
+        "mocha": "^8.1.0",
         "mocha-junit-reporter": "1.15.0",
         "rimraf": "2.7.0"
     },
