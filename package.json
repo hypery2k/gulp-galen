@@ -34,7 +34,7 @@
         "geckodriver": "1.16.2",
         "gulp-util": "^3.0",
         "snyk": "^1.207.2",
-        "through2": "^3.0.1"
+        "through2": "^4.0.2"
     },
     "devDependencies": {
         "chromedriver": "^76.0.0",
