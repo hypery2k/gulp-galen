@@ -37,7 +37,7 @@
         "through2": "^3.0.1"
     },
     "devDependencies": {
-        "chromedriver": "^76.0.0",
+        "chromedriver": "^87.0.4",
         "conventional-changelog-cli": "2.0.17",
         "event-stream": "3.3.4",
         "gulp": "^4.0.2",
